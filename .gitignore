@@ -1,0 +1,78 @@
+# --- Python 기본 ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+.build/
+dist/
+*.log
+
+# --- 가상환경 ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Jupyter/노트북 ---
+.ipynb_checkpoints/
+.jupyter/
+# nbdime / 임시 메타 등
+*.nbconvert.ipynb
+
+# --- OS/IDE 잡파일 ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.code-workspace
+
+# --- 환경변수/시크릿 ---
+.env
+.env.*
+*.secret
+*.secrets
+*.key
+*.pem
+
+# --- 데이터/모델(실습 산출물) ---
+# 필요 시 개별 프로젝트에서 폴더·확장자 조정
+/data/
+datasets/
+outputs/
+checkpoints/
+runs/
+logs/
+*.parquet
+*.feather
+*.arrow
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.csv
+*.tsv
+*.xlsx
+*.xls
+
+# PyTorch / ML 아티팩트
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.joblib
+*.pkl
+*.pickle
+
+# 이미지/영상 대용량(필요시)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.mp4
+*.mov
+*.avi
